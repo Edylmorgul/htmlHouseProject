@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Clos Marsault </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"><!-- Lien pour récup CSS déjà fait et pouvoir utiliser les classes sur le site-->
+        <link rel="stylesheet" href="style.css"> <!-- Google fonts pour police -->
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li id="logo"> <a href="#">Clos Marsault</a> </li> <!-- href="#" ==> le # renvoie au tout ddébut de la page -->
+                    <li> <a href="#langue"> Langue </a> </li> <!-- maj + alt + flèche du bas ==> Pour copier ligne -->
+                    <li> <a href="#reserver"> Réserver </a> </li> <!-- alt + selectionner pour supprimer plusieurs lignes à la fois -->
+                    <li> <a href="#contact"> Nous contacter </a> </li> <!-- Ancrage -->                    
+                </ul>
+            </nav>
+            <div id="imagePrincipale">
+                <h1> Clos Marsault </h1>
+                <div id="premierTrait"></div>
+                <h3> Chambres d'hôtes </h3>
+            </div>
+        </header>
+
+        <section id="presentation">
+            <div id="texteIntro">
+                <h2> Un lieu unique, pour un séjour unique </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tempora itaque odit possimus sit at? Et laboriosam soluta itaque quaerat. 
+                    Illum vel dignissimos, harum dicta deleniti mollitia necessitatibus libero voluptatem! 
+                    Necessitatibus nemo aspernatur, soluta consequuntur consequatur ipsum quidem eveniet reprehenderit quas modi illum, ad optio, iusto mollitia blanditiis id fuga tempore? 
+                    Harum atque error iure enim quam vitae impedit dolores earum modi non, inventore iste laudantium veritatis, nostrum illum repellat cumque natus eius dolor dolorem praesentium similique! 
+                    Soluta quisquam facere quibusdam. </p>
+            </div>
+            <div id="prestation">
+                <div class="imagesPrestation">
+                    <h4> Nous trouver </h4>
+                    <a href="#"> <img src="media/carte.JPG" alt="Carte"></a>
+                </div>
+                <div class="imagesPrestation">
+                    <h4> Coté chambre </h4>
+                    <a href="#"> <img src="media/chambre.JPG" alt="Chambre"></a>
+                </div>
+                <div class="imagesPrestation">
+                    <h4> Coté cuisine </h4>
+                    <a href="#"> <img src="media/repas.JPG" alt="Cuisine"></a>
+                </div>
+            </div>
+        </section>    
+        
+        <section id="tourisme">
+            <h2> Et tant à découvrir... </h2>
+            <ul>
+                <li id="ocean"> <p> L'océan Atlantique </p> </li>
+                <li id="chateau"> <p> Les châteaux du Médoc </p> </li>
+                <li id="phare"> <p> L'estuaire de la Gironde </p> </li>
+                <li id="vignoble"> <p> Le vignoble Bordelais </p> </li>
+            </ul>
+        </section>
+
+        <footer>
+            <h2> Contactez-nous </h2>
+            <form>
+                <input placeholder="Nom">
+                <input placeholder="E-mail">
+                <textarea placeholder="Votre message ici..."></textarea>
+                <button> Envoyer </button>
+            </form>
+            <div id="deuxiemeTrait"> </div>
+            <div id="copyrightEtIcons"> 
+                <div id="copyright">
+                    <span> © fromScratch(); 2020</span>
+                </div>
+                <div id="icons">
+                    <a href="http://www.twitter.fr"> <i class="fa fa-twitter"></i></a>
+                    <a href="http://www.facebook.fr"> <i class="fa fa-facebook"></i></a>
+                    <a href="http://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+                </div>
+            </div>           
+        </footer>
+    </body>
+</html>
